@@ -1,0 +1,39 @@
+.scorelist-layout {
+  width: 500px;
+  max-width: 15em; /* блок занимает ширину родителя, max-width её ограничивает */
+  min-height: 2em;
+  margin-left: auto;
+  margin-right: 0;
+  background: lightblue;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.scorelist-layout h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.scorelist-history {
+  margin: 10px auto;
+  padding: 5px;
+  background: white;
+  width: 95%;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.scorelist-history thead {
+  text-align: left;
+}
+.scorelist-history th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #bbbaba;
+}
+.scorelist-history td {
+  border: 1px solid #bbbaba;
+  padding: 5px;
+}
